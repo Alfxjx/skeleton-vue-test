@@ -1,29 +1,17 @@
 # skeleton-test
 
-## Project setup
-```
-npm install
-```
+## 简介
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+一个使用Vue-cli3 的 骨架屏 demo 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+基于 vue-skeleton-webpack-plugin
 
-### Run your tests
-```
-npm run test
-```
+## todo:
 
-### Lints and fixes files
-```
-npm run lint
-```
+- 实现图片页面的懒加载
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 实现在线demo
+
+## REF
+
+[url](https://www.jianshu.com/p/cb5717c5948f)
