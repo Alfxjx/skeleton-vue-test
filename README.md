@@ -14,4 +14,6 @@
 
 ## REF
 
-[url](https://www.jianshu.com/p/cb5717c5948f)
+[skeleton](https://www.jianshu.com/p/cb5717c5948f)
+
+[lazyload](https://www.cnblogs.com/xyyt/p/7650539.html)
