@@ -1,4 +1,6 @@
 const path = require('path');
+const appData = require('./data.json');
+const articles = appData.articles;
 const SkeletonWebpackPlugin = require('vue-skeleton-webpack-plugin');
 
 module.exports = {
@@ -22,4 +24,14 @@ module.exports = {
     // 启用 CSS modules for all css / pre-processor files.
     modules: false
   },
+  devServer: {
+    before(app){
+      app.get('/api/index', function (req,res) {
+        res.json({
+          errno: 0,
+          data: articles
+        })
+      })
+    }
+  }
 };

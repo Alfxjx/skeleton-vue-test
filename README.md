@@ -12,6 +12,8 @@
 
 - 实现在线demo
 
+- 模拟GITHUB冲突
+
 ## REF
 
 [skeleton](https://www.jianshu.com/p/cb5717c5948f)
